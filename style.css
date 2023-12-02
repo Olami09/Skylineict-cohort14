@@ -1,0 +1,236 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #d4d4d4;
+    min-height: 100vh;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+}
+
+.left {
+    background-color: #fff;
+    height: 95vh;
+    position: sticky;
+    top: 0;
+    left: 20px;
+    border-radius: 5px;
+}
+
+.leftTop {
+    background-color: #1b1b7a;
+    height: 30%;
+    position: relative;
+    border-radius: 5px 5px 0 0;
+}
+
+.orangeBg {
+    background-color: orangered;
+    width: 45%;
+    height: 45%;
+    border-radius: 20px 20px 0 0;
+
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+}
+
+.yellowBg {
+    background-color: #fbbf24;
+    width: 35%;
+    height: 80%;
+    border-radius: 20px 20px 0 0;
+
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+}
+
+.leftBottom {
+    padding-left: 20px;
+}
+
+.lbFirst {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lbFirst img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-top: -70px;
+
+    display: block;
+    object-fit: cover;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.lbFirst span {
+    display: block;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.lbSecond h1 {
+    color: #1b1b7a;
+    margin-top: 20px;
+}
+
+.lbSecond p {
+    color: #1b1b7a;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: -15px;
+}
+
+.lbThird {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.lbThird > div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.lbThird span {
+    background-color: orangered;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.lbThird span svg {
+    display: block;
+    margin: 7px 0 0 8px;
+    width: 25px;
+    height: 25px;
+}
+
+.lbThird div div {
+    margin-top: 10px;
+}
+
+.lbThird div div p {
+    font-size: 12px;
+    color: #1b1b7a;
+    margin-bottom: -10px;
+}
+
+.lbThird div div h5 {
+    color: #1b1b7a;
+    margin-top: 10px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 100vh;
+    padding: 0 20px;
+}
+
+.cohortMem {
+    background-color: #fff;
+    padding: 10px 20px;
+    color: #1b1b7a;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.cohortMem h5 {
+    margin: 0;
+}
+
+.cohortMem p {
+    font-size: 12px;
+    margin: 5px 0;
+} 
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    /* color: #1b1b7a; */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card:nth-child(3n + 2) {
+    border-left: 10px solid #1b1b7a;
+}
+
+.card:nth-child(3n + 3) {
+    border-left: 10px solid #ff4500;
+}
+
+.card:nth-child(3n + 1) {
+    border-left: 10px solid #f59e0b;
+}
+
+.card h5 {
+    margin: 0;
+    color: #1b1b7a;
+}
+
+.card > p {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #1b1b7a;
+}
+
+.studentCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.event {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.event span svg {
+    width: 20px;
+    height: 20px;
+    fill: #ff4500 !important;
+}
+
+.event p {
+    font-size: 12px;
+    color: #1b1b7a;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.time span svg {
+    width: 20px;
+    height: 20px;
+    stroke: #f59e0b;
+}
+
+.time p {
+    font-size: 12px;
+    color: #1b1b7a;
+}
+
+.studentCardRight img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
