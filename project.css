@@ -1,0 +1,305 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+   
+    color: gray;
+    width: 45px;
+}
+
+
+
+.recent-container img {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(194, 185, 185);
+    /* border-radius: 50%; */
+}
+/* here is top perfomance numbering */
+
+.top-right img{
+    border: 2px solid rgb(122, 33, 33);
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    
+}
+
+
+.number-first span{
+    width: 2px;
+    border: 2px solid rgb(86, 1, 86);
+    padding: 5px 9px;
+    color: rgb(79, 1, 79);
+    border-radius: 50%;
+    font-weight: bold;
+    background-color: rgba(239, 245, 247, 0.756);
+    
+}
+
+.number-two span{
+    width: 2px;
+    border: 2px solid rgb(187, 163, 30);
+    padding: 5px 9px;
+    color: rgb(198, 173, 27);
+    border-radius: 50%;
+    font-weight: bold;
+    background-color: rgba(246, 246, 91, 0.361);
+    
+}
+
+.number-three span{
+    width: 2px;
+    border: 2px solid rgb(152, 16, 103);
+    padding: 5px 9px;
+    color: rgb(124, 14, 84);
+    border-radius: 50%;
+    font-weight: bold;
+    background-color: rgba(239, 171, 239, 0.763);
+    
+}
+
+.number-four span{
+    width: 2px;
+    border: 2px solid rgb(4, 4, 173);
+    padding: 5px 9px;
+    color: rgb(2, 2, 188);
+    border-radius: 50%;
+    font-weight: bold;
+    background-color: #85d489a2;
+    
+}
+
+.number-five span{
+    width: 2px;
+    border: 2px solid mediumvioletred;
+    padding: 5px 9px;
+    color: mediumvioletred;
+    border-radius: 50%;
+    font-weight: bold;
+    background-color: rgba(165, 164, 164, 0.427);
+    
+}
+
+.number-six span{
+    width: 2px;
+    border: 2px solid rgb(143, 21, 199);
+    padding: 5px 9px;
+    color: rgb(143, 21, 199);
+    border-radius: 50%;
+    font-weight: bold;
+    background-color: rgba(239, 171, 239, 0.763);
+    
+}
+
+
+.number-seven span{
+    width: 2px;
+    border: 2px solid rgb(62, 147, 2);
+    padding: 5px 9px;
+    color: rgb(0, 190, 28);
+    border-radius: 50%;
+    font-weight: bold;
+    background-color: #e4f1e4a2;
+    
+}
+
+.number-eight span{
+    width: 2px;
+    border: 2px solid rgb(3, 3, 102);
+    padding: 5px 9px;
+    color: rgb(1, 1, 155);
+    border-radius: 50%;
+    font-weight: bold;
+    background-color: #85d489a2;
+    
+}
+
+
+.enroll-btn input{
+    
+    display: inline-block;
+    padding: 6px 10px;
+    background-color: rgb(2, 2, 113);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 15px;
+    /* transition: background-color 0.3s; */
+    border: 1px solid rgba(128, 128, 128, 0);
+}
+
+.vertical a{
+    width: 2px;
+    position: relative;
+    left: -39px;
+    color: gray;
+    font-size: 20px;
+
+}
+
+
+.second-table input:hover {
+    background-color: #45a049;
+}
+
+.top-perform-table {
+    margin-top: 50px;
+}
+
+.top-perform-table td{
+    font-weight: bold;
+}
+
+
+.marks{
+    font-size: 14px;
+}
+
+.top-right{
+    float: right;
+    width: 25.7%;
+    margin-top: -630px;
+    margin-right: 150px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.432);
+
+}
+
+.assignments{
+    display: flex;
+    font-size: 13px;
+    color: #9faaa0;
+    font-weight: lighter;
+    padding-top: 6px;
+    
+}
+
+
+
+
+.star {
+    color: rgb(255, 221, 0);
+    display: flex;
+    font-size: 12px;
+    padding-top: 10px;
+    gap: 3px;
+    
+}
+
+.score{
+    color: #9faaa0;
+    padding-left: 5px;
+}
+
+
+.top-caption{
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    left: 15px;
+    top: 20px;
+
+}
+
+caption a{
+    color: gray;
+    position: relative;
+    right: -165px;
+    font-size: 20px;
+}
+
+/* .Performance-icon{
+    position: absolute;
+    left: 550px;
+} */
+
+
+
+
+
+
+.table-one{
+    width: 57%;
+    margin-top: 25px;
+    margin-left: 80px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.432);
+    border-radius: 10px;
+    background-color: white;
+
+    
+}
+
+.table-one a{
+    text-decoration: none;
+    color: gray;
+}
+
+.first-table-percentage{
+    font-size: 12px;
+    display: flex;
+    top: 0;
+    margin-top: -19px;
+    width: 7px;
+}
+
+/* recent courses table  */
+
+.recent-container{
+    width: 57%;
+    margin-top: 40px;
+    margin-left: 80px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.432);
+    border-radius: 10px;
+    padding-top: 10px;
+    background-color: white;
+}
+
+.Recent-courses-table{
+    width: 98%;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.recent-caption{
+   
+    width: 180px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.module-five{
+    display: flex;
+    font-size: 13px;
+    color: #9faaa0;
+    font-weight: lighter;
+    padding-top: 6px;
+}
+
+.Recent-courses-table td{
+font-weight: bold;
+
+}
+
+
+
+/* second */
+.second-table input:hover {
+    background-color: #45a049;
+}
+
+
