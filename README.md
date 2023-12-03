@@ -1,1 +1,1 @@
-# Skylineict-cohort14
+# Skylineict-cohort14 after doing my work with my html and styling with css, i deployed it using my github and gitbash respectively but before then, i forked Olami's address to be able to deploy effectively.
