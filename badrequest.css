@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    list-style: none;
+
+}
+
+.main-container{
+
+/* background-color: wheat; */
+width: 40%;
+margin: auto;
+margin-top: 15%;
+height: 30vh;
+text-align: center;
+padding: 10px;
+
+}
+
+h1{
+    font-size: 80px;
+    color: rgb(18, 18, 63);
+}
+
+.thumb{
+    font-size:25px;
+    font-weight: bolder;
+    color: rgb(18, 18, 63);
+    
+}
+
+.thumb span i{
+
+    color: red;
+    margin-right: 10px;
+
+}
+
+.error{
+    font-size: 15px;
+    color: rgb(18, 18, 63);
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+a{
+
+    background-color: blue;
+    padding: 10px;
+   color: white;
+   border-radius: 10px;
+}
+
+
+
+@media screen and (min-width:360px) and (max-width:767px) {
+
+    .main-container{
+
+        width: 100%;
+        margin-top: 25%;
+        
+        }
+}
+
+
+
+
+
