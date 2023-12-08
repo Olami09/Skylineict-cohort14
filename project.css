@@ -18,13 +18,132 @@ th {
 }
 
 
+/* first table the navigation table*/
+
+.table-one{
+    width: 57%;
+    margin-top: 25px;
+    margin-left: 80px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.432);
+    border-radius: 10px;
+    background-color: white;
+
+    
+}
+
+.table-one a{
+    text-decoration: none;
+    color: gray;
+}
+
+.first-table-percentage{
+    font-size: 12px;
+    display: flex;
+    top: 0;
+    margin-top: -19px;
+    width: 7px;
+}
+
+/* second table */
+
+
+
+.recent-container{
+    width: 57%;
+    margin-top: 40px;
+    margin-left: 80px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.432);
+    border-radius: 10px;
+    padding-top: 10px;
+    background-color: white;
+}
+
+.Recent-courses-table{
+    width: 98%;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.recent-caption{
+   
+    width: 180px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+
+.star {
+    color: rgb(255, 221, 0);
+    display: flex;
+    font-size: 12px;
+    padding-top: 10px;
+    gap: 3px;
+    
+}
+
+.module-five{
+    display: flex;
+    font-size: 13px;
+    color: #9faaa0;
+    font-weight: lighter;
+    padding-top: 6px;
+}
+
+.Recent-courses-table td{
+font-weight: bold;
+
+}
+
+
+.second-table input:hover {
+    background-color: #45a049;
+}
+
 
 .recent-container img {
     width: 50px;
     height: 50px;
     background-color: rgb(194, 185, 185);
-    /* border-radius: 50%; */
 }
+
+
+
+.Recent-courses-table{
+    width: 98%;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.recent-caption{
+   
+    width: 180px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.module-five{
+    display: flex;
+    font-size: 13px;
+    color: #9faaa0;
+    font-weight: lighter;
+    padding-top: 6px;
+}
+
+.Recent-courses-table td{
+font-weight: bold;
+
+}
+
+
+.second-table input:hover {
+    background-color: #45a049;
+}
+
+
 /* here is top perfomance numbering */
 
 .top-right img{
@@ -46,6 +165,8 @@ th {
     background-color: rgba(239, 245, 247, 0.756);
     
 }
+
+
 
 .number-two span{
     width: 2px;
@@ -153,6 +274,8 @@ th {
     background-color: #45a049;
 }
 
+/* table top right starts here  */
+
 .top-perform-table {
     margin-top: 50px;
 }
@@ -190,14 +313,7 @@ th {
 
 
 
-.star {
-    color: rgb(255, 221, 0);
-    display: flex;
-    font-size: 12px;
-    padding-top: 10px;
-    gap: 3px;
-    
-}
+
 
 .score{
     color: #9faaa0;
@@ -221,85 +337,324 @@ caption a{
     font-size: 20px;
 }
 
-/* .Performance-icon{
-    position: absolute;
-    left: 550px;
-} */
 
+/* mobile response */
 
+@media (max-width:1360px) and (min-width:1016px) {
+    .table-one{
+        width: 50%;
+        font-size: 12px;
+        padding: 5px 8px;
+    }
 
-
-
-
-.table-one{
-    width: 57%;
-    margin-top: 25px;
-    margin-left: 80px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.432);
-    border-radius: 10px;
-    background-color: white;
+    .first-table-percentage{
+        font-size: 10px;
+        padding-top: 10px;
+        margin: auto;
+    }
 
     
-}
 
-.table-one a{
-    text-decoration: none;
-    color: gray;
-}
 
-.first-table-percentage{
-    font-size: 12px;
-    display: flex;
-    top: 0;
-    margin-top: -19px;
-    width: 7px;
-}
+    .recent-container{
+        width: 50%;
+        margin-top: 25px;
+    }
 
-/* recent courses table  */
+    th, td {
+        padding: 2px;
+        text-align: left;
+    }
 
-.recent-container{
-    width: 57%;
-    margin-top: 40px;
-    margin-left: 80px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.432);
-    border-radius: 10px;
-    padding-top: 10px;
-    background-color: white;
-}
 
-.Recent-courses-table{
-    width: 98%;
-    margin: auto;
-    margin-top: 10px;
-    margin-left: 20px;
-}
+    .second-table{
+        width: 100%;
+        font-size: 12px;
+        
+    }
 
-.recent-caption{
-   
-    width: 180px;
-    font-size: 20px;
-    font-weight: bold;
-    
+    .enroll-btn input{
+        
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 10px;
 }
 
 .module-five{
-    display: flex;
-    font-size: 13px;
-    color: #9faaa0;
-    font-weight: lighter;
-    padding-top: 6px;
+    font-size: 10px;
 }
 
-.Recent-courses-table td{
-font-weight: bold;
+.second-table img{
+    width: 40px;
+    height: 40px;
+    margin-left: 1px;
+}
+    
 
+    .Recent-courses-table{
+        width: 90%;
+        margin: auto;
+    }
+
+    .vertical a{
+        left: 0px;
+        font-size: 15px;
+    
+    }
+    
+
+    .second-table td{
+        font-size: 13px;
+
+    }
+
+    .star{
+        font-size: 8px;
+    }
+    .top-right {
+        width: 35%;
+        margin-right: 80px;
+        margin-top: -350px;
+        font-size: 13px;
+    }
+
+    .first-table-percentage {
+        margin-top: -16px;
+    }
+    .number-eight span {
+        padding: 5px 7px;
+    }
+
+    .Recent-courses-table{
+        width: 100%;
+    }
+
+    .recent-caption{
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+
+    .assignments{
+        font-size: 10px;
+        color: #9faaa0;
+        font-weight: lighter;
+        padding-top: 3px;
+        
+    }
+    
+    .marks{
+        font-size: 10px;
+    }
+    
+    .score{
+        color: #9faaa0;
+        padding-left: 2px;
+    }
+    
+    
+    .top-right img{
+        width:  25px;
+        height: 25px;
+        
+    }
+    
+    
+    .number-first span{
+        border: 2px solid rgb(86, 1, 86);
+        padding: 2px 6px;
+      
+        
+    }
+    
+    
+    
+    .number-two span{
+    
+        padding: 2px 5px;
+     
+    }
+    
+    .number-three span{
+        padding: 2px 5px;
+       
+        
+    }
+    
+    .number-four span{
+        padding: 2px 5px;
+        
+    }
+    .number-five span{
+        padding: 2px 5px;
+      
+    }
+    
+    .number-six span{
+        padding: 2px 5px;
+    
+    }
+    
+    
+    .number-seven span{
+        padding: 2px 5px;
+       
+        
+    }
+    
+    .number-eight span{
+       
+        padding: 2px 5px;
+    
+        
+    }
 }
 
+/* Responsive Styles for Mobile Screens */
+@media (min-width: 320px) and (max-width: 1015px) {
+    .table-one{
+        width: 100%;
+        margin-left: auto;
+        margin-left: auto;
+        margin-top: 20px;
+        font-size: 10px;
+
+        padding: 5px 8px;
+    }
+
+    
+    .first-table-percentage{
+        font-size: 8px;
+        padding-top: 8px;
+    
+    }
+
+    
 
 
-/* second */
-.second-table input:hover {
-    background-color: #45a049;
+    .recent-container{
+        width: 100%;
+        margin-left: auto;
+        margin-top: 25px;
+    }
+
+    th, td {
+        padding: 2px;
+        text-align: left;
+    }
+
+
+    .second-table{
+        width: 100%;
+        font-size: 10px;
+        
+    }
+
+    .enroll-btn input{
+        
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 10px;
 }
+
+.module-five{
+    font-size: 10px;
+}
+
+.second-table img{
+    width: 40px;
+    height: 40px;
+    margin-left: 1px;
+}
+    
+
+    .Recent-courses-table{
+        width: 100%;
+        margin: auto;
+    }
+
+    .vertical a{
+        left: 0px;
+        font-size: 15px;
+    
+    }
+    
+
+    .second-table td{
+        font-size: 10px;
+
+    }
+
+    .star{
+        font-size: 8px;
+    }
+    .top-right {
+        width: 100%;
+        margin-right: 0px;
+        margin-top: 20px;
+        font-size: 13px;
+    }
+
+    .top-perform-table{
+        width: 100%;
+    }
+
+    
+   
+
+    .Recent-courses-table{
+        width: 100%;
+        margin: auto;
+    
+    }
+
+    .recent-caption{
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+
+    .assignments{
+        font-size: 10px;
+        color: #9faaa0;
+        font-weight: lighter;
+        padding-top: 3px;
+        
+    }
+    
+    .marks{
+        font-size: 10px;
+    }
+    
+    .score{
+        color: #9faaa0;
+        padding-left: 5px;
+        background-color: red;
+    }
+    
+    
+    .top-right img{
+        width: 30px;
+        margin-left: 5px;
+        height: 25px;
+        
+        
+    }
+    
+    
+    .number  span{
+        padding: 5px 10px;
+      
+        
+    }
+    
+    
+    
+   
+}
+  
+    
+
+
+
+
 
 
