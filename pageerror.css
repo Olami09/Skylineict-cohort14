@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+ *{
+
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+ }
+    
+@media screen and (max-width: 600px) {
+        font-size: 14px;
+    }
+
+
+ body{
+    background: -webkit-repeating-linear-gradient(-45deg,#b0ebcf, #f597d1, #e00505);
+    height: 100vh;
+    background-size: 400%;
+        font-size: 16px;
+        line-height: 1.6;
+    
+    
+ } 
+ .error-page{
+
+    
+    position: absolute;
+    top: 10%;
+    left: 17%;
+    right: 17%;
+    bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0px 5px 10px rgb(182, 149, 149);
+    
+ }
+
+  .error-page .content{
+
+    max-width: 600x;
+    text-align: center;
+
+  }
+
+  .content h1{
+    font-size: 18vh;
+    font-weight: bolder solid;
+    position: relative;
+    color: #352969;
+    padding-bottom: 1%;
+   
+  }
+
+  .content h1:after{
+
+    background: -webkit-repeating-linear-gradient(-45deg,#71b7e6, #69a6ce, #b98ace);
+  }
+
+   
+
+  .content h2{
+
+    font-size: 30px;
+    padding-bottom: 3px;
+    color: #352969;
+   
+  
+    
+  }
+
+  .content h2 span{
+     margin: 20px 10px;
+    color: red;
+  }
+
+  span{
+    font-size: 30px;
+  }
+
+  .content p{
+      font-size: 15px;
+      color: #65607a;
+      font-style: normal;
+  
+
+  }
+
+
+  .content .btn{
+     margin: 10px 0;
+     display: inline-flex;
+
+  }
+
+  .content .btn a{
+
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid;
+    color: #fff;
+    background-color: rgb(108, 102, 163);
+    font-weight: 500;
+    padding: 10px 25px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+  }
+
+  .content .btn a:hover{
+    background-color: #9c4c4c;
+    color: #fff;
+  }
+
+ 
