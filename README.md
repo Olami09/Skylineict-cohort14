@@ -1,8 +1,4 @@
 # Skylineict-cohort14
 
 # Assignment on Dashboard
-page on bad error
-
-# Attached Files
-a.badrequest.html
-b.badrequest.css
+assigment on bad error page for group 2 cohort 14
