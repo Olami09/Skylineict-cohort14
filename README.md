@@ -1,6 +1,6 @@
 # Skylineict-cohort14
 
-I have made adjustment to the student profile html
+I have made adjustment to the student profile html pushing gthrough a new branch now.
 The student now can see his percent score close to his cohort rating.
 
 I made adjustment also for each student to see the top scorer in their dashboard 
