@@ -1,4 +1,4 @@
-# daucko-cohort14
+# Daucko-Cohort14
 
 # My Cohort
 
